@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("base.css");
+
+header{ background:url(../images/banner1.jpg) no-repeat center top; background-size:cover;}
+.inner{ width:1140px; margin:0 auto;}
+header .inner{padding-top:36px;}
+header .inner .logo > h1{color:#fff; float:left; font-size:60px; font-weight:bold; font-family:"Letter Gothic Std";}
+header .inner > ul { float:right; }
+header .inner > ul > li{ float:left; padding:0 15px; line-height:40px; transition:all 1s; text-align: center;} 
+header .inner > ul .down {padding-right: 29px;}
+header .inner > ul >li:hover{background-color:#6faf09; border-radius:5px;}
+header .inner > ul > li > a{ color:#fff;}
+
+.pega1{ background:#f2f2f2;padding-bottom:55px;}
+.pega1 .inner .inner-top{ text-align:center;font-size:50px; font-weight:100; padding-top:13px;}
+.pega1 .inner .inner-bot:after{content:"";display:block; height:0px; clear:both;}
+.pega1 .inner .inner-top span{ font-weight:bold; line-height:130px;}
+.pega1 .inner .inner-bot .inner-bot-left{ width:346px; height:196px; border:2px solid #d04536; padding:7px; float:left;margin-right:28px; margin-bottom:105px;}
+.pega1 .inner .inner-bot .inner-bot-left >img {width:100%; height:100%;}
+.pega1 .inner .inner-bot-right >h5{ line-height:25px; padding:12px 0px; font-size:14px;}
+.pega1 .inner .inner-bot-right >span{ line-height:30px; font-size:14px;}
+
+.pega2{margin-left:20px;}
+.pega2:after{content:"";display:block; height:0px; clear:both;}
+.pega2 .pega2-left{width:344px; height:442px; border-top:8px solid #f5261f; float:left;}
+.pega2 .pega2-left > h1{ line-height:92px;margin-top:30px; font-size:36px; font-weight:300;}
+.pega2 .pega2-left > span{ line-height:27px; font-size:13px;}
+.pega2 .pega2-left > ul{margin-top:25px;}
+.pega2 .pega2-left > ul > li{ line-height:28px; font-size:13px;}
+.pega2 .pega2-left > ul > li >a >i {color:#6faf09; font-size:18px;padding-left:10px;}
+.pega2 .pega2-left > ul > li >a >span{ color:#000;padding-left:22px; }
+
+.pega2 .pega2-mid{width:344px; height:442px; border-top:8px solid #7b7a7a; float:left; margin-left:30px;}
+.pega2 .pega2-mid > h1{ line-height:92px;margin-top:30px; font-size:36px; font-weight:300;}
+.pega2 .pega2-mid > span{ line-height:27px; font-size:13px;}
+.pega2 .pega2-mid > ul{margin-top:25px;}
+.pega2 .pega2-mid > ul > li{ line-height:28px; font-size:13px;}
+.pega2 .pega2-mid > ul > li >a >i {color:#6faf09; font-size:18px;padding-left:10px;}
+.pega2 .pega2-mid > ul > li >a >span{ color:#000;padding-left:22px; }
+
+.pega2 .pega2-right{width:344px; height:442px; border-top:8px solid #6faf09; float:left; margin-left:30px;}
+.pega2 .pega2-right > h1{ line-height:92px;margin-top:30px; font-size:36px; font-weight:300;}
+.pega2 .pega2-right > span{ line-height:27px; font-size:13px;}
+.pega2 .pega2-right > ul{margin-top:25px;}
+.pega2 .pega2-right > ul > li{ line-height:28px; font-size:13px;}
+.pega2 .pega2-right > ul > li >a >i {color:#6faf09; font-size:18px;padding-left:10px;}
+.pega2 .pega2-right > ul > li >a >span{ color:#000;padding-left:22px; }
+
+.pega3{ background:#6faf09;}
+.pega3 .inner > h1{ text-align:center; font-size:50px; font-weight:100; line-height:160px; color:#fff; margin-bottom:20px;}
+.pega3 .inner > h1 > span{ font-weight:bold;}
+.pega3 .inner > ul{padding-bottom:138px;}
+.pega3 .inner > ul:after{content:"";display:block; height:0px; clear:both;}
+.pega3 .inner > ul > li{float:left; margin-left:44px;}
+.pega3 .inner > ul > li:nth-child(1) > a{ width:220px; height:220px;border-radius:50%; background:url(../images/s1.jpg) no-repeat; display:block;box-shadow:0px 0px 30px rgba(0,0,0,1.0) inset ,0px 0px 30px rgba(0,0,0,1.0) inset;}
+.pega3 .inner > ul > li:nth-child(2) > a{ width:220px; height:220px;border-radius:50%; background:url(../images/s2.jpg) no-repeat; display:block;box-shadow:0px 0px 30px rgba(0,0,0,1.0) inset ,0px 0px 30px rgba(0,0,0,1.0) inset;}
+.pega3 .inner > ul > li:nth-child(3) > a{ width:220px; height:220px;border-radius:50%; background:url(../images/s3.jpg) no-repeat; display:block;box-shadow:0px 0px 30px rgba(0,0,0,1.0) inset ,0px 0px 30px rgba(0,0,0,1.0) inset;}
+.pega3 .inner > ul > li:nth-child(4) > a{ width:220px; height:220px;border-radius:50%; background:url(../images/s4.jpg) no-repeat; display:block;box-shadow:0px 0px 30px rgba(0,0,0,1.0) inset ,0px 0px 30px rgba(0,0,0,1.0) inset;}
+
+
+.pega4 .inner > h1{text-align:center; font-size:50px; font-weight:100; line-height:160px;  margin-bottom:20px;}
+.pega4 .inner > h1 > span{ font-weight:bold;}
+.pega4 .inner:after{content:"";display:block; height:0px; clear:both;}
+.pega4 .inner .inner-left{ width:333px; height:194px; border:2px solid #d04536; padding:7px;float:left;margin-right:28px; margin-bottom:55px;}
+.pega4 .inner .inner-left img{ width:100%; height:100%;}
+
+.pega5{background:url(../images/banner.jpg) no-repeat center top; background-size:cover;padding-bottom:84px;}
+.pega5 .inner > h1{text-align:center; font-size:50px; font-weight:100; line-height:122px; color:#fff;}
+.pega5 .inner > h1 > span{ font-weight:bold;}
+.pega5 .inner ul:after{content:"";display:block; height:0px; clear:both;}
+.pega5 .inner ul li{ width:270px; float:left; text-align:center;color:#fff;}
+.pega5 .inner ul li a{width:120px; height:120px; border-radius:60px; background:#f5261f; display:block; line-height:120px; font-size:30px; color:#fff; margin:0 auto; transition:all 1s;}
+.pega5 .inner ul li h2{ font-size:30px; font-weight:500; line-height:90px;}
+.pega5 .inner ul li p{ line-height:30px;}
+.pega5 .inner ul li a:hover{background:#2F2E2E; transform:rotateY(180deg);}
+
+footer{background:#000;}
+footer .inner{padding-top:42px;}
+footer .inner .font{ width:254px; height:258px; float:left; margin:0px 15px;}
+footer .inner .font h3{ color:#fff; line-height:63px;}
+footer .inner .font ul li{color:#7b8888; line-height:28px; font-size:13px;}
+footer .inner .font ul li a{color:#7b8888;}
+footer .inner .font ul li a:hover{color:#6faf09;}
+
+.bottom{ background-color:#6faf09;}
+.bottom .inner{ text-align:center; line-height:72px; font-size:12px; padding-top:0px; color:#fff;}

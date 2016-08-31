@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+header{ background:url(../images/banner1.jpg) no-repeat center top; background-size:cover;}
+.inner{ width:1140px; margin:0 auto;}
+header .inner{padding-top:36px;}
+header .inner .logo h1{color:#fff; float:left; font-size:60px; font-weight:bold; font-family:"Letter Gothic Std";}
+header .inner > ul { float:right; }
+header .inner > ul > li{ float:left; padding:0 15px; line-height:40px; transition:all 1s; text-align: center;} 
+header .inner > ul .down {padding-right: 29px;}
+header .inner > ul >li:hover{background-color:#6faf09; border-radius:5px;}
+header .inner > ul > li > a{ color:#fff;}
+
+section .inner {margin-bottom:60px;}
+section .inner .pega1{text-align:center;}
+section .inner .pega1 h2{ font-size:50px; font-weight:300; line-height:123px; margin-top:23px;}
+section .inner h2 span{ font-weight:bold;}
+section .inner ul .pic1{height:207px;width:378px; float:left; margin-right:2px; margin-bottom:2px; }
+section .inner ul li a img {height:100%; width:100%;}
+section .inner ul .pic2 { height:416px; float:left;width:378px;margin-right:2px; margin-bottom:2px;} 
+section .inner ul .pic3 a{ float:right;height:416px; width:378px; display:inline-block;margin-right:2px; margin-bottom:2px;}
+section .inner ul .pic1:hover{background-size:150%;}
+
+footer{background:#000;}
+footer .inner{padding-top:42px;}
+footer .inner .font{ width:254px; height:258px; float:left; margin:0px 15px;}
+footer .inner .font h3{ color:#fff; line-height:63px;}
+footer .inner .font ul li{color:#7b8888; line-height:28px; font-size:13px;}
+footer .inner .font ul li a{color:#7b8888;}
+footer .inner .font ul li a:hover{color:#6faf09;}
+
+.bottom{ background-color:#6faf09;}
+.bottom .inner{ text-align:center; line-height:72px; font-size:12px; padding-top:0px; color:#fff;}
